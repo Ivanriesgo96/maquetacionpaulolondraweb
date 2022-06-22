@@ -1,0 +1,187 @@
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.logoNavbar {
+	max-width:120px;
+}
+
+.navbar {
+	min-height: 100px;
+	z-index: 2000;
+}
+
+section {
+	background:#33383B;
+	padding:3rem 0 3rem 0;
+}
+
+.backgroundBrandColor {
+	background:#34544f;
+}
+
+.contenedorFotos {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.contenedorFotos img {
+    max-width: calc(33% - 10px);
+    margin: 5px;
+    cursor: zoom-in;
+    border:solid 1px transparent;
+    opacity:.9;
+    transition:opacity .15s ease-in-out;
+    border-radius: 10px;
+}
+
+.contenedorFotos img:hover {
+    border:solid 1px #34544f;
+    opacity:1;
+}
+
+.accordion-button:not(.collapsed) {
+	color:#34544f;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color:white;
+}
+
+.sectionContacto {
+	min-height: 100vh;
+	background-image: url("imagenes/background/02.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#prensa {
+	background-image: url("imagenes/background/03.jpg");
+}
+
+.form-check-label {
+	cursor: pointer;
+}
+
+.btn-brand {
+	font-size: .8rem;
+	border-radius: 0;
+	text-transform: uppercase;
+	background-color:#34544f;
+	border-color:#34544f;
+	color:white;
+}
+
+.btn-brand:hover {
+	background-color:white;
+}
+
+.btn-navBar,
+.btn-navBar:visited {
+	font-size: 1rem;
+	border-radius: 5px;
+	background-color:#ff7600;
+	border-color:#ff7600;
+}
+
+.btn-navBar:hover,
+.btn-navBar:focus {
+	background-color:white;
+	border-color: white;
+}
+
+.carousel-item {
+	height: calc(100vh - 100px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.slide1{
+	background-image: url("imagenes/carrousel/01.jpg");
+}
+
+.slide2{
+	background-image: url("imagenes/carrousel/02.jpg");
+}
+
+.slide3{
+	background-image: url("imagenes/carrousel/03.jpg");
+}
+
+table tr td:first-child {
+	white-space: nowrap;
+	width: 220px;
+	text-align: right;
+	color: #919191;
+}
+
+.fotoCV {
+	width: 100%;
+}
+
+#biografia .card {
+	border-color: #757575;
+	overflow: hidden;
+}
+
+#biografia .card-body,
+#biografia .accordion,
+#biografia .accordion-item,
+#biografia .accordion-button,
+#biografia td {
+	background: #757575;
+	color: white;
+}
+
+#biografia .list-group,
+#biografia .list-group-item {
+	background: transparent;
+}
+
+#biografia .card-body,
+#biografia .list-group,
+#biografia .list-group-item {
+	color: white;
+}
+
+.contenedorRedesSociales {
+	font-size: 3rem;
+}
+
+.contenedorRedesSociales a i {
+	margin:0 2rem;
+	transition:transform .2s ease-in-out;
+}
+
+.contenedorRedesSociales a:hover i {
+	transform:scale(1.2);
+}
+
+.goTopButton {
+	display: none;
+}
+
+#carouselHome {
+	z-index: 1000;
+}
+
+@media screen and (min-width: 992px) {
+	h3 {
+		font-size:4rem;
+	}
+	.goTopButton {
+		display: block;
+		position: fixed;
+		bottom: 2rem;
+		width: 60px;
+		height: 60px;
+		right: 2rem;
+		z-index: 500;
+	}
+	.goTopButton img {
+		width: 100%;
+	}
+}

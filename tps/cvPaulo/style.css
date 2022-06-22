@@ -1,0 +1,453 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    width: 1400px;
+    height: 40px;
+    background-color: #33383B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.navBar{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    padding-left: 0;
+}
+
+.navBar a {
+    margin-left: 140px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navBar :first-child {
+    margin-left: 0px;
+}
+
+.homeContainer {
+    width: 1400px;
+    height: 400px;
+    background-image: url(Imagenes/fotocvbg1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.cvPaulo {
+    border-radius: 50%;
+    width: 135px;
+}
+
+.informationContainer {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    background-color: #33383B;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.aboutMe {
+    padding: 20px;
+    width: 50%;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.basicInfo {
+    padding: 20px;
+    width: 50%;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.musicCarreerContainer {
+    width: 1400px;
+    background-color: #33383B;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.musicCarreer {
+    display: flex;
+    font-size: 20px;
+}
+
+.dateBox {
+    background-color: #ffffff;
+    width: 20%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.dateInfo {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    background-color: #757575;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+.dateInfo p{
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.educationContainer {
+    width: 1400px;
+    background-color: #33383B;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.educationInfo {
+    display: flex;
+    font-size: 20px;
+}
+
+.dateEducationBox {
+    background-color: #ffffff;
+    width: 20%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.schoolInfo {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    background-color: #757575;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+.schoolInfo p{
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+@media(max-width: 820px) {
+    nav {
+        width: 100%;
+        height: 40px;
+        background-color: #33383B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        border-radius: 3px;
+    }
+    
+    .navBar{
+        display: flex;
+        list-style: none;
+        font-size: 18px;
+    }
+    
+    .navBar a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+    
+    .homeContainer {
+        width: 100%;
+        height: 400px;
+        background-image: url(Imagenes/fotocvbg1.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 3px;
+    }
+    
+    .cvPaulo {
+        border-radius: 50%;
+        width: 135px;
+    }
+    
+    .informationContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #33383B;
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+    
+    .aboutMe {
+        padding: 20px;
+        color: #ffffff;
+        font-size: 18px;
+        width: 80%;
+    }
+    
+    .basicInfo {
+        padding: 20px;
+        color: #ffffff;
+        font-size: 18px;
+        width: 80%;
+        line-height: 25px;
+    }
+    
+    .musicCarreerContainer {
+        width: 100%;
+        background-color: #33383B;
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+    
+    .musicCarreer {
+        display: flex;
+        font-size: 20px;
+    }
+    
+    .dateBox {
+        background-color: #ffffff;
+        width: 30%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin-right: 10px;
+    }
+    
+    .dateInfo {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 80%;
+        background-color: #757575;
+        color: #ffffff;
+        padding: 3px;
+        border-radius: 3px;
+        justify-content: center;
+    }
+    
+    .dateInfo p{
+        margin-bottom: 2px;
+        margin-top: 0px;
+    }
+
+    .educationContainer {
+        width: 100%;
+        background-color: #33383B;
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+    
+    .educationInfo {
+        display: flex;
+        font-size: 20px;
+    }
+    
+    .dateEducationBox {
+        background-color: #ffffff;
+        width: 30%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    .schoolInfo {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 80%;
+        background-color: #757575;
+        color: #ffffff;
+        padding: 3px;
+        border-radius: 3px;
+        justify-content: center;
+    }
+    
+    .schoolInfo p{
+        margin-bottom: 2px;
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 414px) {
+    nav {
+        width: 100%;
+        height: 40px;
+        background-color: #33383B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        border-radius: 3px;
+    }
+    
+    .navBar{
+        display: flex;
+        list-style: none;
+        font-size: 10px;
+    }
+    
+    .navBar a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .homeContainer {
+        width: 100%;
+        height: 400px;
+        background-image: url(Imagenes/fotocvbg1.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 3px;
+    }
+    
+    .cvPaulo {
+        border-radius: 50%;
+        width: 135px;
+    }
+    
+    .informationContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #33383B;
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+    
+    .aboutMe {
+        padding: 20px;
+        color: #ffffff;
+        font-size: 12px;
+        width: 80%;
+    }
+    
+    .basicInfo {
+        padding: 20px;
+        color: #ffffff;
+        font-size: 12px;
+        width: 80%;
+        line-height: 25px;
+    }
+    
+    .musicCarreerContainer {
+        width: 100%;
+        background-color: #33383B;
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+    
+    .musicCarreer {
+        display: flex;
+        font-size: 20px;
+    }
+    
+    .dateBox {
+        background-color: #ffffff;
+        width: 30%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin-right: 10px;
+    }
+    
+    .dateInfo {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 80%;
+        background-color: #757575;
+        color: #ffffff;
+        padding: 3px;
+        border-radius: 3px;
+        justify-content: center;
+    }
+    
+    .dateInfo p{
+        margin-bottom: 2px;
+        margin-top: 0px;
+    }
+
+    .educationContainer {
+        width: 100%;
+        background-color: #33383B;
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+    
+    .educationInfo {
+        display: flex;
+        font-size: 20px;
+    }
+    
+    .dateEducationBox {
+        background-color: #ffffff;
+        width: 30%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    .schoolInfo {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 80%;
+        background-color: #757575;
+        color: #ffffff;
+        padding: 3px;
+        border-radius: 3px;
+        justify-content: center;
+    }
+    
+    .schoolInfo p{
+        margin-bottom: 2px;
+        margin-top: 0px;
+    }
+}
