@@ -360,16 +360,16 @@
 						<form name="contact" method="POST" data-netlify="true">
 							<div class="mb-3">
 								<label for="nombre" class="form-label">Tu Nombre</label>
-								<input type="text" class="form-control" id="nombre" placeholder="Ingresá tu nombre" required>
+								<input type="text" name="name" class="form-control" id="nombre" placeholder="Ingresá tu nombre" required>
 							</div>
 							<div class="mb-3">
 								<label for="email" class="form-label">Tu Email</label>
-								<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingresá tu Email" required>
+								<input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingresá tu Email" required>
 								<div id="emailHelp" class="form-text">No compartiremos tu Email con nadie más.</div>
 							</div>
 							<div class="mb-3">
 								<label for="mensaje" class="form-label">Tu mensaje</label>
-								<textarea class="form-control" id="mensaje" rows="3" placeholder="Ingresá tu mensaje..." required></textarea>
+								<textarea name="message" class="form-control" id="mensaje" rows="3" placeholder="Ingresá tu mensaje..." required></textarea>
 							</div>
 							<button type="submit" class="btn btn-brand">Enviar mensaje</button>
 						</form>
